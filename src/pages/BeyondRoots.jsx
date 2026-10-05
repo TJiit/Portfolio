@@ -1,24 +1,24 @@
 import "../styles/project-details.css";
 import ProjectGallery from "../components/ProjectGallery";
 
-import beyondRoots1 from "../assets/images/Beyond-Roots1.png";
-import beyondRoots2 from "../assets/images/Beyond-Roots2.png";
-import beyondRoots3 from "../assets/images/Beyond-Roots3.png";
-import beyondRoots4 from "../assets/images/Beyond-Roots4.png";
-import beyondRoots5 from "../assets/images/Beyond-Roots5.png";
-import beyondRoots6 from "../assets/images/Beyond-Roots6.png";
-import beyondRoots7 from "../assets/images/Beyond-Roots7.png";
-import beyondRoots8 from "../assets/images/Beyond-Roots8.png";
-import beyondRoots9 from "../assets/images/Beyond-Roots9.png";
-import beyondRoots10 from "../assets/images/Beyond-Roots10.png";
-import beyondRoots11 from "../assets/images/Beyond-Roots11.png";
-import beyondRoots12 from "../assets/images/Beyond-Roots12.png";
-import beyondRoots13 from "../assets/images/Beyond-Roots13.png";
-import beyondRoots14 from "../assets/images/Beyond-Roots14.png";
-import beyondRoots15 from "../assets/images/Beyond-Roots15.png";
-import beyondRoots16 from "../assets/images/Beyond-Roots16.png";
-import beyondRoots17 from "../assets/images/Beyond-Roots17.png";
-import beyondRoots18 from "../assets/images/Beyond-Roots18.png";
+import beyondRoots1 from "../assets/images/Beyond-Roots1.PNG";
+import beyondRoots2 from "../assets/images/Beyond-Roots2.PNG";
+import beyondRoots3 from "../assets/images/Beyond-Roots3.PNG";
+import beyondRoots4 from "../assets/images/Beyond-Roots4.PNG";
+import beyondRoots5 from "../assets/images/Beyond-Roots5.PNG";
+import beyondRoots6 from "../assets/images/Beyond-Roots6.PNG";
+import beyondRoots7 from "../assets/images/Beyond-Roots7.PNG";
+import beyondRoots8 from "../assets/images/Beyond-Roots8.PNG";
+import beyondRoots9 from "../assets/images/Beyond-Roots9.PNG";
+import beyondRoots10 from "../assets/images/Beyond-Roots10.PNG";
+import beyondRoots11 from "../assets/images/Beyond-Roots11.PNG";
+import beyondRoots12 from "../assets/images/Beyond-Roots12.PNG";
+import beyondRoots13 from "../assets/images/Beyond-Roots13.PNG";
+import beyondRoots14 from "../assets/images/Beyond-Roots14.PNG";
+import beyondRoots15 from "../assets/images/Beyond-Roots15.PNG";
+import beyondRoots16 from "../assets/images/Beyond-Roots16.PNG";
+import beyondRoots17 from "../assets/images/Beyond-Roots17.PNG";
+import beyondRoots18 from "../assets/images/Beyond-Roots18.PNG";
 
 import {
   FaArrowLeft,
