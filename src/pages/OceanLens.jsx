@@ -1,31 +1,31 @@
 import "../styles/project-details.css";
 import ProjectGallery from "../components/ProjectGallery";
 
-import low1 from "../assets/images/1.png";
-import low2 from "../assets/images/2.png";
-import low3 from "../assets/images/3.png";
-import low4 from "../assets/images/4.png";
-import low5 from "../assets/images/5.png";
-import low6 from "../assets/images/6.png";
-import low7 from "../assets/images/7.png";
-import low8 from "../assets/images/8.png";
-import low9 from "../assets/images/9.png";
-import low10 from "../assets/images/10.png";
-import low11 from "../assets/images/11.png";
-import low12 from "../assets/images/12.png";
-import low13 from "../assets/images/13.png";
-import low14 from "../assets/images/14.png";
-import low15 from "../assets/images/15.png";
-import low16 from "../assets/images/16.png";
-import low17 from "../assets/images/17.png";
-import low18 from "../assets/images/18.png";
+import low1 from "../assets/images/1.PNG";
+import low2 from "../assets/images/2.PNG";
+import low3 from "../assets/images/3.PNG";
+import low4 from "../assets/images/4.PNG";
+import low5 from "../assets/images/5.PNG";
+import low6 from "../assets/images/6.PNG";
+import low7 from "../assets/images/7.PNG";
+import low8 from "../assets/images/8.PNG";
+import low9 from "../assets/images/9.PNG";
+import low10 from "../assets/images/10.PNG";
+import low11 from "../assets/images/11.PNG";
+import low12 from "../assets/images/12.PNG";
+import low13 from "../assets/images/13.PNG";
+import low14 from "../assets/images/14.PNG";
+import low15 from "../assets/images/15.PNG";
+import low16 from "../assets/images/16.PNG";
+import low17 from "../assets/images/17.PNG";
+import low18 from "../assets/images/18.PNG";
 
-import oceanLens1 from "../assets/images/OceanLens1.png";
-import oceanLens2 from "../assets/images/OceanLens2.png";
-import oceanLens3 from "../assets/images/OceanLens3.png";
-import oceanLens4 from "../assets/images/OceanLens4.png";
-import oceanLens5 from "../assets/images/OceanLens5.png";
-import oceanLens6 from "../assets/images/OceanLens6.png";
+import oceanLens1 from "../assets/images/OceanLens1.PNG";
+import oceanLens2 from "../assets/images/OceanLens2.PNG";
+import oceanLens3 from "../assets/images/OceanLens3.PNG";
+import oceanLens4 from "../assets/images/OceanLens4.PNG";
+import oceanLens5 from "../assets/images/OceanLens5.PNG";
+import oceanLens6 from "../assets/images/OceanLens6.PNG";
 
 import oceanLensVideo from "../assets/videos/Video Demonstration.mp4";
 
