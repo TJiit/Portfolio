@@ -1,0 +1,79 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ===========================
+   Design System
+=========================== */
+
+:root{
+
+    /* Colors */
+
+    --background:#0B1120;
+    --secondary:#111827;
+    --card:#1E293B;
+
+    --accent:#D4A056;
+    --accent-light:#E6B874;
+
+    --white:#F8FAFC;
+    --grey:#94A3B8;
+
+    /* Shadows */
+
+    --shadow:0 10px 30px rgba(0,0,0,.25);
+
+    /* Border */
+
+    --radius:18px;
+
+}
+
+/* ===========================
+   Reset
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ===========================
+   Base
+=========================== */
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:var(--background);
+
+    color:var(--white);
+
+    overflow-x:hidden;
+
+}
+
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+button{
+
+    font-family:'Poppins',sans-serif;
+
+    cursor:pointer;
+
+    transition:.35s ease;
+
+}
