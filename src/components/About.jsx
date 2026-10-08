@@ -28,7 +28,7 @@ function About() {
           <FaUserGraduate className="about-icon" />
           <h3>Education</h3>
           <p>
-            BEng (Hons) Software Engineering
+            BSc (Hons) Computer Science
             <br />
             Informatics Institute of Technology
           </p>
