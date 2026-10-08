@@ -80,7 +80,7 @@ function SaveMeNet() {
       <section className="project-details-image">
 
         <ProjectGallery
-            images={[
+          images={[
             savemenet1,
             savemenet2,
             savemenet3,
@@ -89,7 +89,7 @@ function SaveMeNet() {
             savemenet6,
             savemenet7,
             savemenet8,
-            ]}
+          ]}
         />
 
       </section>
@@ -172,10 +172,41 @@ function SaveMeNet() {
         <h2>My Contribution</h2>
 
         <p>
-          I designed and developed the application, including the
-          user interface, document processing workflow, PII detection,
-          anonymization logic and restoration functionality.
+          As the sole developer of SaveMeNet, I was responsible for
+          the application's development, research, documentation and
+          overall organisation throughout the project.
         </p>
+
+        <ul className="contribution-list">
+
+          <li>
+            Designed and developed the <strong>frontend and user
+            interface</strong> across all application pages.
+          </li>
+
+          <li>
+            Conducted <strong>design and technical research </strong>
+            to create an intuitive and practical application.
+          </li>
+
+          <li>
+            Gathered and analysed <strong>research papers and
+            existing solutions</strong> to identify a suitable
+            approach and develop SaveMeNet as a new solution.
+          </li>
+
+          <li>
+            <strong>Documented the development process</strong> at
+            each stage as part of the final-year thesis.
+          </li>
+
+          <li>
+            Organised and maintained the project's <strong>codebase
+            using Git</strong>, keeping the development process
+            structured and manageable.
+          </li>
+
+        </ul>
 
       </section>
 

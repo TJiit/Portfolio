@@ -385,3 +385,17 @@
   display: block;
   max-height: 600px;
 }
+
+.contribution-list {
+    margin-top: 25px;
+    padding-left: 25px;
+}
+
+.contribution-list li {
+    margin-bottom: 18px;
+    line-height: 1.7;
+}
+
+.contribution-list li:last-child {
+    margin-bottom: 0;
+}

@@ -408,12 +408,37 @@ function Cybersecurity() {
         <h2>My Contribution</h2>
 
         <p>
-          I carried out the practical security assessment activities,
-          documented the findings and analysed the identified
-          vulnerabilities. I also evaluated the security implications
-          of the findings and considered appropriate mitigation
-          strategies.
+          I took responsibility for documenting the assessment,
+          analysing vulnerabilities and researching security
+          concepts throughout the coursework.
         </p>
+
+        <ul className="contribution-list">
+
+          <li>
+            <strong>Documented the full security assessment</strong>,
+            recording the testing process, findings and results.
+          </li>
+
+          <li>
+            Examined and analysed <strong>individual vulnerability
+            assessments</strong> to understand their causes and
+            security impact.
+          </li>
+
+          <li>
+            Applied <strong>problem-solving skills</strong> to
+            investigate technical issues and determine appropriate
+            approaches during the assessment.
+          </li>
+
+          <li>
+            Conducted <strong>technical research</strong> to
+            understand vulnerabilities, security concepts and
+            potential mitigation strategies.
+          </li>
+
+        </ul>
 
       </section>
 

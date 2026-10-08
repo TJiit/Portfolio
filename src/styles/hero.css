@@ -16,13 +16,17 @@
 
 }
 
-/* LEFT */
+
+/* =========================
+   LEFT SIDE
+========================= */
 
 .hero-content{
 
     flex:1.2;
 
 }
+
 
 .hero-intro{
 
@@ -34,6 +38,7 @@
 
 }
 
+
 .hero-name{
 
     font-size:55px;
@@ -43,6 +48,7 @@
     margin-bottom:20px;
 
 }
+
 
 .hero-title{
 
@@ -56,11 +62,13 @@
 
 }
 
+
 .hero-title span{
 
     color:var(--accent);
 
 }
+
 
 .hero-description{
 
@@ -76,7 +84,10 @@
 
 }
 
-/* BUTTONS */
+
+/* =========================
+   BUTTONS
+========================= */
 
 .hero-buttons{
 
@@ -85,6 +96,7 @@
     gap:20px;
 
 }
+
 
 .primary-btn{
 
@@ -98,7 +110,11 @@
 
     border-radius:12px;
 
+    transition:.3s ease;
+
 }
+
+
 .primary-btn:hover{
 
     transform:translateY(-4px);
@@ -120,8 +136,10 @@
 
     border-radius:12px;
 
+    transition:.3s ease;
 
 }
+
 
 .secondary-btn:hover{
 
@@ -131,7 +149,10 @@
 
 }
 
-/* IMAGE */
+
+/* =========================
+   PROFILE IMAGE AREA
+========================= */
 
 .hero-image{
 
@@ -141,29 +162,51 @@
 
     justify-content:center;
 
+    align-items:center;
+
+    position:relative;
+
 }
 
-/* OPTION C */
+
+/* =========================
+   OVAL PHOTO FRAME
+========================= */
 
 .photo-frame{
 
-    width:380px;
+    width:290px;
 
-    height:300px;
+    height:365px;
 
-    padding:10px;
+    padding:7px;
 
     border:2px solid var(--accent);
 
-    border-radius:30px;
-
-    transform:rotate(-4deg);
+    border-radius:50%;
 
     background:rgba(255,255,255,.03);
 
-    box-shadow:0 20px 50px rgba(0,0,0,.35);
+    box-shadow:
+        0 20px 50px rgba(0,0,0,.35),
+        0 0 30px rgba(212,160,86,.16);
+
+    position:relative;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    animation:floating 5s ease-in-out infinite;
 
 }
+
+
+/* =========================
+   PROFILE IMAGE
+========================= */
 
 .photo-frame img{
 
@@ -173,33 +216,153 @@
 
     object-fit:cover;
 
-    border-radius:22px;
+    object-position:center 35%;
 
-    transform:rotate(4deg);
+    border-radius:50%;
+
+    filter:
+        brightness(1.12)
+        contrast(1.05)
+        saturate(1.08);
 
 }
 
-@keyframes floating {
+
+/* =========================
+   GOLD ANIMATED RING
+========================= */
+
+.photo-frame::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:315px;
+
+    height:390px;
+
+    border:1px solid rgba(212,160,86,.35);
+
+    border-radius:50%;
+
+    top:50%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    animation:orbit 7s linear infinite;
+
+    pointer-events:none;
+
+}
+
+
+/* =========================
+   PURPLE ANIMATED RING
+========================= */
+
+.photo-frame::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:340px;
+
+    height:415px;
+
+    border:1px solid rgba(79,70,229,.25);
+
+    border-radius:50%;
+
+    top:50%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    animation:orbitReverse 10s linear infinite;
+
+    pointer-events:none;
+
+}
+
+
+/* =========================
+   FLOATING ANIMATION
+========================= */
+
+@keyframes floating{
 
     0%{
-        transform:translateY(0px) rotate(-4deg);
+
+        transform:translateY(0px);
+
     }
 
     50%{
-        transform:translateY(-12px) rotate(-4deg);
+
+        transform:translateY(-12px);
+
     }
 
     100%{
-        transform:translateY(0px) rotate(-4deg);
+
+        transform:translateY(0px);
+
     }
 
 }
 
-.photo-frame{
 
-    animation:floating 5s ease-in-out infinite;
+/* =========================
+   GOLD RING ROTATION
+========================= */
+
+@keyframes orbit{
+
+    0%{
+
+        transform:translate(-50%,-50%) rotate(0deg);
+
+    }
+
+    100%{
+
+        transform:translate(-50%,-50%) rotate(360deg);
+
+    }
 
 }
+
+
+/* =========================
+   PURPLE RING ROTATION
+========================= */
+
+@keyframes orbitReverse{
+
+    0%{
+
+        transform:translate(-50%,-50%) rotate(360deg);
+
+    }
+
+    100%{
+
+        transform:translate(-50%,-50%) rotate(0deg);
+
+    }
+
+}
+
+
+/* =========================
+   BACKGROUND GLOWS
+========================= */
+
 .hero-glow{
 
     position:absolute;
@@ -211,6 +374,7 @@
     z-index:-1;
 
 }
+
 
 .hero-glow-1{
 
@@ -228,6 +392,7 @@
 
 }
 
+
 .hero-glow-2{
 
     width:350px;
@@ -241,5 +406,253 @@
     bottom:40px;
 
     opacity:.10;
+
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width:900px){
+
+    .hero{
+
+        gap:40px;
+
+        padding:100px 6%;
+
+    }
+
+    .hero-name{
+
+        font-size:48px;
+
+    }
+
+    .hero-title{
+
+        font-size:30px;
+
+    }
+
+    .photo-frame{
+
+        width:260px;
+
+        height:330px;
+
+    }
+
+    .photo-frame::before{
+
+        width:285px;
+
+        height:355px;
+
+    }
+
+    .photo-frame::after{
+
+        width:305px;
+
+        height:375px;
+
+    }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width:700px){
+
+    .hero{
+
+        min-height:auto;
+
+        flex-direction:column;
+
+        text-align:center;
+
+        padding:110px 6% 70px;
+
+        gap:60px;
+
+    }
+
+
+    .hero-content{
+
+        width:100%;
+
+    }
+
+
+    .hero-intro{
+
+        font-size:18px;
+
+    }
+
+
+    .hero-name{
+
+        font-size:44px;
+
+    }
+
+
+    .hero-title{
+
+        font-size:27px;
+
+        line-height:1.3;
+
+    }
+
+
+    .hero-description{
+
+        font-size:16px;
+
+        margin-left:auto;
+
+        margin-right:auto;
+
+        max-width:500px;
+
+    }
+
+
+    .hero-buttons{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+    }
+
+
+    .hero-image{
+
+        width:100%;
+
+    }
+
+
+    .photo-frame{
+
+        width:250px;
+
+        height:315px;
+
+    }
+
+
+    .photo-frame::before{
+
+        width:275px;
+
+        height:340px;
+
+    }
+
+
+    .photo-frame::after{
+
+        width:295px;
+
+        height:360px;
+
+    }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width:450px){
+
+    .hero{
+
+        padding-left:5%;
+
+        padding-right:5%;
+
+    }
+
+
+    .hero-name{
+
+        font-size:38px;
+
+    }
+
+
+    .hero-title{
+
+        font-size:23px;
+
+    }
+
+
+    .hero-description{
+
+        font-size:15px;
+
+    }
+
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:14px;
+
+    }
+
+
+    .primary-btn,
+    .secondary-btn{
+
+        width:200px;
+
+        text-align:center;
+
+    }
+
+
+    .photo-frame{
+
+        width:225px;
+
+        height:285px;
+
+    }
+
+
+    .photo-frame::before{
+
+        width:250px;
+
+        height:310px;
+
+    }
+
+
+    .photo-frame::after{
+
+        width:270px;
+
+        height:330px;
+
+    }
 
 }

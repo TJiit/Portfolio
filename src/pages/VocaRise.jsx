@@ -237,28 +237,49 @@ function VocaRise() {
 
         <p>
 
-          I contributed to the development of the frontend
-          components using React Native, focusing on interface
-          implementation, user interaction and responsiveness.
+          I contributed to the frontend development, backend
+          support, research and documentation of the VocaRise
+          project.
 
         </p>
 
+        <ul className="contribution-list">
 
-        <p>
+          <li>
+            Designed the <strong>VocaRise logo</strong>.
+          </li>
 
-          I also worked with the Python backend and helped
-          integrate APIs and manage data flow between the
-          frontend and backend.
+          <li>
+            Developed the <strong>home, login and sign-up
+            pages</strong>.
+          </li>
 
-        </p>
+          <li>
+            Contributed to other <strong>application pages </strong>
+            with team members.
+          </li>
 
+          <li>
+            Assisted with <strong>backend management</strong> and
+            API integration.
+          </li>
 
-        <p>
+          <li>
+            Conducted <strong>research and reviewed research
+            papers</strong> for the project.
+          </li>
 
-          Git was used throughout development for version
-          control and collaborative team development.
+          <li>
+            Organised the <strong>project documentation </strong>
+            and assigned sections to team members.
+          </li>
 
-        </p>
+          <li>
+            Helped <strong>finalise and organise</strong> the
+            project documentation.
+          </li>
+
+        </ul>
 
       </section>
 

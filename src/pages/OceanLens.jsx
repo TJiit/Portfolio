@@ -150,7 +150,7 @@ function OceanLens() {
             oceanLens3,
             oceanLens4,
             oceanLens5,
-            oceanLens6,
+            oceanLens6
           ]}
         />
 
@@ -229,11 +229,44 @@ function OceanLens() {
         <h2>My Contribution</h2>
 
         <p>
-          I contributed to the design and development of the OceanLens
-          prototype, working on the interface structure, user flows,
-          wireframes and high-fidelity screens. I also focused on
-          maintaining consistency and usability throughout the design.
+          I contributed to both the early concept development and
+          detailed UI/UX design of the OceanLens application, with
+          responsibility for the high-fidelity prototype and
+          supporting documentation.
         </p>
+
+        <ul className="contribution-list">
+
+          <li>
+            Collaborated with team members to create the
+            <strong> low-fidelity prototypes</strong> and establish
+            the initial application structure.
+          </li>
+
+          <li>
+            Contributed to the <strong>early distribution of the
+            application idea</strong>, helping organise and define
+            the initial concepts and user experience.
+          </li>
+
+          <li>
+            Created the <strong>complete high-fidelity prototype</strong>,
+            including interface layouts, images, element positioning
+            and application usage flows.
+          </li>
+
+          <li>
+            Contributed to the <strong>team documentation </strong>
+           for the low-fidelity design stage.
+          </li>
+
+          <li>
+            Prepared <strong>independent documentation</strong> for
+            the high-fidelity prototype, supported by research and
+            organised design decisions.
+          </li>
+
+        </ul>
 
       </section>
 

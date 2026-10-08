@@ -50,7 +50,7 @@ function BeyondRoots() {
 
           <p>
             A group-developed responsive personal website created using
-            HTML, CSS and JavaScript. The project focused on building
+            HTML, CSS and JavaScript. The project was focused on building
             an engaging web experience while applying fundamental
             front-end development and user experience principles.
           </p>
@@ -167,12 +167,44 @@ function BeyondRoots() {
         <h2>My Contribution</h2>
 
         <p>
-          As part of the development team, I contributed to the
-          front-end development of the website, including page layout,
-          responsive design, styling and interactive elements.
-          I also worked with the team to maintain consistency across
-          the different sections of the website.
+          I took responsibility for several key areas of the website
+          while collaborating with the rest of the development team.
         </p>
+
+        <ul className="contribution-list">
+
+          <li>
+            Led the design and development of the <strong>homepage</strong>.
+          </li>
+
+          <li>
+            Designed and implemented the <strong>navigation bars and headers</strong>.
+          </li>
+
+          <li>
+            Managed <strong>images and visual content</strong> across the website.
+          </li>
+
+          <li>
+            Developed several <strong>content pages</strong> while maintaining
+            consistent styling.
+          </li>
+
+          <li>
+            Designed and developed the <strong>profile and contact pages</strong>.
+          </li>
+
+          <li>
+            Took responsibility for the <strong>project presentation</strong>
+            and organisation of the team's work.
+          </li>
+
+          <li>
+            Supported <strong>group organisation and coordination</strong>
+            throughout the project.
+          </li>
+
+        </ul>
 
       </section>
 

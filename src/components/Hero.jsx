@@ -1,5 +1,5 @@
 import "../styles/hero.css";
-import profileImage from "../assets/images/img.jpg";
+import profileImage from "../assets/images/profile.png";
 import cvFile from "../assets/cv/CV Resume 2026.pdf";
 import { motion } from "framer-motion";
 

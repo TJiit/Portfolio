@@ -34,8 +34,8 @@ function Contact() {
 
           <p>
             I'm interested in web development, UI/UX design, and
-            creating meaningful digital experiences. Whether you have
-            a project idea, an opportunity, or simply want to connect,
+            creating meaningful digital experiences. Whether its a
+            new project idea, an opportunity, or simply want to connect,
             feel free to reach out.
           </p>
 

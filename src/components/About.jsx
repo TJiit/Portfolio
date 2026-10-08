@@ -40,7 +40,7 @@ function About() {
 
           <ul>
             <li>Web Development</li>
-            <li>UI/UX Design</li>
+            <li>UI/UX Designing</li>
             <li>Artificial Intelligence</li>
             <li>Frontend Development</li>
           </ul>
