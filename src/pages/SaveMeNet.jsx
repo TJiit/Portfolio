@@ -226,20 +226,11 @@ function SaveMeNet() {
       </section>
 
 
-      {/* GITHUB */}
-
-      <section className="project-details-footer">
-
-        <a
-          href="https://github.com/TJiit"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="project-github-btn"
-        >
-          <FaGithub />
-          View on GitHub
+      {/* Footer */}
+        <section className="project-details-footer">
+        <a href="/#projects" className="project-github-btn">
+          <FaArrowLeft /> Back to Projects
         </a>
-
       </section>
 
     </main>

@@ -86,14 +86,6 @@ function Projects() {
               <div className="project-buttons">
 
                 <a
-                  href="#"
-                  className="project-btn primary-project-btn"
-                >
-                  <FaGithub />
-                  GitHub
-                </a>
-
-                <a
                   href="/projects/savemenet"
                   className="project-btn secondary-project-btn"
                 >
@@ -217,9 +209,7 @@ function Projects() {
       )}
 
 
-      {/* =========================
-          PAGE 2
-      ========================== */}
+      {/* PAGE 2*/}
 
       {projectPage === 1 && (
 
@@ -312,7 +302,7 @@ function Projects() {
               </div>
 
               <span className="project-card-label">
-                Future Project
+                Work-In-Progress
               </span>
 
               <h3>BookRacks</h3>
@@ -335,28 +325,6 @@ function Projects() {
                  View Project
                 <FaExternalLinkAlt />
               </a>
-            </div>
-
-
-            {/* FUTURE PROJECT */}
-
-            <div className="project-card future-project">
-
-              <div className="project-card-icon">
-                <FaCode />
-              </div>
-
-              <span className="project-card-label">
-                Coming Soon
-              </span>
-
-              <h3>Future Project</h3>
-
-              <p>
-                More projects and experiments will appear here as I
-                continue learning, designing and building.
-              </p>
-
             </div>
 
           </div>

@@ -28,7 +28,7 @@ function Hero() {
         </h1>
 
         <h2 className="hero-title">
-          Potential Software Engineer
+          Potential Web Developer
           <br />
           <span>& UI/UX Enthusiast</span>
         </h2>
